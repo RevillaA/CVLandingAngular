@@ -1,0 +1,57 @@
+section {
+  padding: 30px 20px;
+  margin: 0 auto 30px;
+  max-width: 1000px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+  scroll-margin-top: 55px;
+}
+
+h2 {
+  color: #483AA0;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #483AA0;
+  margin-bottom: 10px;
+}
+
+.contenedor-habilidades {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.columna {
+  flex: 1;
+  min-width: 300px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #0E2148;
+}
+
+.imagen-habilidad,
+.imagen-competencia {
+  margin-top: 30px;
+  margin-left: 20px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-habilidad {
+  max-width: 80%;
+}
+
+.imagen-competencia {
+  max-width: 67%;
+}

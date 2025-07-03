@@ -1,0 +1,27 @@
+<header id="perfil" class="principal">
+  <div class="contenedor-header">
+    <img src="/assets/images/Antonio.jpg" class="foto" alt="Antonio Revilla" />
+    <div class="info-header">
+      <h1>Antonio Revilla</h1><br />
+      <p class="subtitulo">Estudiante de Ingeniería de Software</p>
+      <p class="universidad">Universidad de las Fuerzas Armadas ESPE</p>
+      <p class="edad">20 años</p>
+      <br>
+    <div class="btn-group">
+      <a href="https://wa.link/qw6kot" class="btn">
+        <i class="fab fa-whatsapp"></i> Contáctame
+      </a>
+    <button class="btn-redes" (click)="toggleRedes()" style="font-size: 18px;">
+        <i class="fas fa-share-alt"></i> Redes Sociales
+      </button>
+    </div>
+    <br>
+    <div class="redes-sociales" [hidden]="!redes().length">
+      <a *ngFor="let link of redes()"  [href]="link.url" target="_blank"
+         class="red-social" [title]="link.title">
+        <i [class]="link.icon + ' fa-2x'"></i>
+      </a>
+    </div>
+    </div>
+  </div>
+</header>

@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E3D095;
+  color: #0E2148;
+  line-height: 1.6;
+  margin: 0;
+  height: 100vh;
+}
+
+h1, h2, h3{
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  color: #483AA0;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #483AA0;
+  margin-bottom: 10px;
+}

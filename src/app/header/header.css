@@ -1,0 +1,88 @@
+.principal {
+  background-color: #0E2148;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.contenedor-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  max-height: 520px;
+  margin: 0 auto;
+}
+
+.foto {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.btn {
+  background-color: #E3D095;
+  color: #175884;
+  padding: 8px 24px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-redes {
+  background-color: #E3D095;
+  color: #175884;
+  padding: 11px 24px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+.btn-redes:hover {
+  background-color: #fff;
+}
+
+.subtitulo, .universidad, .edad {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+  color: #E3D095;
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.red-social i {
+  color: #fff;
+  margin-right: 8px;
+}
