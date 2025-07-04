@@ -1,9 +1,16 @@
 <nav class="menu">
-  <a href="#perfil" (click)="scrollTo('perfil')"><i class="fas fa-user"></i> Perfil</a>
-  <a href="#sobre-mi" (click)="scrollTo('sobre-mi')"><i class="fas fa-info-circle"></i> Sobre mí</a>
-  <a href="#experiencia" (click)="scrollTo('experiencia')"><i class="fas fa-briefcase"></i> Experiencia</a>
-  <a href="#estudios" (click)="scrollTo('estudios')"><i class="fas fa-graduation-cap"></i> Estudios</a>
-  <a href="#habilidades-competencias" (click)="scrollTo('habilidades-competencias')"><i class="fas fa-laptop-code"></i> Habilidades y Competencias</a>
-  <a href="#idiomas" (click)="scrollTo('idiomas')"><i class="fas fa-language"></i> Idiomas</a>
-  <a href="#contacto" (click)="scrollTo('contacto')"><i class="fas fa-envelope"></i> Contacto</a>
+  <button class="burger" (click)="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="links" [class.open]="isOpen()">
+    <a href="#perfil" (click)="navigate('perfil')"><i class="fas fa-user"></i> Perfil</a>
+    <a href="#sobre-mi" (click)="navigate('sobre-mi')"><i class="fas fa-info-circle"></i> Sobre mí</a>
+    <a href="#experiencia" (click)="navigate('experiencia')"><i class="fas fa-briefcase"></i> Experiencia</a>
+    <a href="#estudios" (click)="navigate('estudios')"><i class="fas fa-graduation-cap"></i> Estudios</a>
+    <a href="#habilidades-competencias" (click)="navigate('habilidades-competencias')">
+      <i class="fas fa-laptop-code"></i> Habilidades y Competencias
+    </a>
+    <a href="#idiomas" (click)="navigate('idiomas')"><i class="fas fa-language"></i> Idiomas</a>
+    <a href="#contacto" (click)="navigate('contacto')"><i class="fas fa-envelope"></i> Contacto</a>
+  </div>
 </nav>
