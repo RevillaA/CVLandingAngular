@@ -28,3 +28,18 @@ h2 {
 .escudo {
   width: 95px;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 20px 10px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  section {
+    max-width: 600px;
+  }
+}
